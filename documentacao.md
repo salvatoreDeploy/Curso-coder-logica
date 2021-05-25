@@ -53,6 +53,7 @@ Aritimeticos:
     Todo numero sendo modulo por 2 é par, ao contrario seria impar;
 
 Relacionais:
+    = -> Simbolo de atribuição;
     == -> Simbolo de igualdade;
     != -> Simbolo de diferença;
     === -> estritamente igual;
@@ -61,3 +62,9 @@ Relacionais:
     <= -> Menor ou igual;
     Em toda espressão relacional, o resultado sera true ou false(verdadeiro ou falso);
     
+Atribuição:
+    let a = 3+2; -> Do lado direito temos uma expreção, que o resultado dela sera atribuido a variavel;
+    a = 7; -> Dessa forma atribuimos um valor literal a variavel;
+    -> Temos quase sempre o cenario onde temos do lado esquerdo a variavel e do lado direirto o valor sendo atribuido;
+    -> Podemos usar em conjuto os simbolos aritimeticos com o sinal de atribuição, Ex: += tendo uma atribuição aditiva;
+    -> No contexto onde atribuimos um valor a variavel, se passamos um novo valor ele é substituido na memoria, então o valor da avariavel e substituido Ex: a = 5; depois a = 10... No final o valor de a sera 10, mas podemos usar o valor de a para relizar uma nova operação Ex: a = 5; depois a = a + 10...dessa forma a valera 15;
