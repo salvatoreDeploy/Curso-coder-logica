@@ -68,3 +68,18 @@ Atribuição:
     -> Temos quase sempre o cenario onde temos do lado esquerdo a variavel e do lado direirto o valor sendo atribuido;
     -> Podemos usar em conjuto os simbolos aritimeticos com o sinal de atribuição, Ex: += tendo uma atribuição aditiva;
     -> No contexto onde atribuimos um valor a variavel, se passamos um novo valor ele é substituido na memoria, então o valor da avariavel e substituido Ex: a = 5; depois a = 10... No final o valor de a sera 10, mas podemos usar o valor de a para relizar uma nova operação Ex: a = 5; depois a = a + 10...dessa forma a valera 15;
+
+Logicos:
+    -> Ha estrutura se baseia entre receber verdadeiro(true) ou falso(false), tendo operação logica envolta dos operadores logicos:
+     E(AND) -> Quando todos os operadores precisam ser verdadeiros para o resultado final ser verdadeiro;
+     OU(OR) -> Este operador apenas necessita de uma parte da estrutura ser verdadeira para resposat ser verdadeira;
+
+    ->Tabela logica para AND(E) = V AND V = V, F AND V = F, F AND F = F;
+    ->Tabela logica para XOR(ou exclusivo) = V OR V = F, F XOR V = V, F XOR F = F;
+        Uma particularidade onde o sinal !=  de diferente faz a mesma estrutura de xor;
+    ->Tabela logica para OR(ou) = V OR V = V, V OR F = V, F OR F = F;
+
+    -> O NOT é negação logica onde podemos negar ou mudar o estado de um resultado para testar uma tabela verdade;
+    -> tabela da Negação Logica(NOT) NOT->F = V, NOT->V = F;
+
+
